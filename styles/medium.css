@@ -1,0 +1,12 @@
+@media only screen and (min-width: 32.5em) {
+
+}
+
+.header{
+    display: flex;
+    background-color: #a3b18a;
+    color: #dad7cd;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
