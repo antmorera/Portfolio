@@ -1,0 +1,167 @@
+:root {
+
+
+    /*FONTS:*/
+    --heading-font: 'Oswaldo', Arial, sans-serif;
+    --paragraph-font: 'Source Serif Pro', 'Roboto', serif;
+  
+    /*COLORS:*/
+    --primary-color: #ACE4AA;
+    --secondary-color: white;
+    --accent1-color: #004E98;
+    --accent2-color: #FEEBD7;
+  
+    --headline-color-on-white: #2B3964;
+    --headline-color-on-color: #2B3964;
+    --headline-background-color: #E0E0E0;
+  
+    --paragraph-color-on-white: #2B3964;
+    --paragraph-color-on-color: #2B3964;
+    --paragraph-background-color: #91D17E;
+  
+    --nav-link-color: #E0E0E0;
+    --nav-background-color: #2B3964;
+    --nav-hover-link-color: #2B3964;
+    --nav-hover-background-color: #91D17E;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--paragraph-font);
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  body {
+  
+    margin: 0 auto;
+    font-size: 1rem;
+    text-align: center;
+    background-color: var(--secondary-color);
+    max-width: 1560px;
+  }
+  
+  nav {
+    background-color: var(--nav-background-color);
+    text-align: center;
+    box-shadow: 0 0 30px #333 inset;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 1.8rem;
+  
+  
+  }
+  
+  nav div {
+    flex: 1 1 auto;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  
+  }
+  
+  nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+    padding: 10px;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  .colors {
+    width: 100%;
+  
+    margin: 0 auto;
+  }
+  
+  .colors th {
+    background-color: #999;
+    font-family: var(--heading-font);
+  
+  }
+  
+  .colors td {
+    width: 25%;
+    height: 3em;
+  
+  
+  }
+  
+  .primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  
+  .accent2 {
+    background-color: var(--accent2-color);
+  }
+  
+  .paragraph-font {
+    font-family: var(--paragraph-font);
+  }
+  
+  .colored {
+    background-color: var(--paragraph-background-color);
+  }
+  
+  p,
+  li {
+    color: var(--paragraph-color-on-white);
+  }
+  
+  li {
+    margin: 1rem 0;
+    text-align: left;
+  }
+  
+  p,
+  ol {
+    padding: 10px;
+  }
+  section{
+    padding: 30px;
+  }
+
+  .footer span {
+    text-decoration: underline;
+}
+
+  /* JS CSS */
+
+
+
+.last-update {
+    color: gold;
+}
