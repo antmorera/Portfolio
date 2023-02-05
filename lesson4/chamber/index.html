@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link
-      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rokkitt&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300&family=Source+Serif+Pro:wght@300&display=swap"
       rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -20,64 +20,170 @@
   </head>
   <body>
     <header>
-      <img
-        class="logo"
-        src="images/carbon county logo.png"
-        alt="carbon county chamber of commerce logo" />
-
-      <div class="social">
-        <a href="https://facebook.com" target="_blank">
-          <img class="social-logo" src="images/facebook.png" alt="fb icon" />
-        </a>
-        <a href="https://instagram.com" target="_blank">
-          <img
-            class="social-logo"
-            src="images/instagram.png"
-            alt="instagram icon" />
-        </a>
+      <div class="banner">
+        <div class="banner-box">
+          <div class="banner-text">
+            Come join us for the Chamber Meet-n-Greet every Saturday at 14:00
+          </div>
+          <button class="banner-close" type="button">
+            <span class="material-symbols-outlined"> close </span>
+          </button>
+        </div>
       </div>
+      <div class="header-grid">
+        <div class="header-img-div">
+          <img
+            src="images/carbon county logo.png"
+            alt="carbon county chamber of commerce logo" />
+        </div>
 
-      <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-          <li class="active"><a href="index.html">Home </a></li>
-          <li><a href="#">Discover</a></li>
-          <li><a href="#">Directory</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="header-date"></div>
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img class="social-logo" src="images/facebook.png" alt="fb icon" />
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img
+              class="social-logo"
+              src="images/instagram.png"
+              alt="instagram icon" />
+          </a>
+        </div>
+        <div>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <nav>
+          <ul id="primaryNav">
+            <li class="active"><a href="index.html">Home </a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-date"></div>
+      </div>
     </header>
     <main>
-      <div class="hero">Hero with site name and call to action</div>
-      <div class="event">Event</div>
-      <div class="weather">Weather</div>
-      <div class="news-release">News Release</div>
-      <section class="spotlights">
-        <div class="spotlight1">Spotlight 1</div>
-        <div class="spotlight2">spotlight 2</div>
-      </section>
+      <div class="hero">
+        <img src="images/utah-museum-logo.JPG" alt="jensen pond" />
+        <h1>Welcome to Carbon County</h1>
+        <div class="join-button"><a href="join.html">Join the Chamber</a></div>
+      </div>
+      <div class="event">
+        <h2>February Luncheon</h2>
+        <ul>
+          <li>February 16th</li>
+          <li>12:00 p.m</li>
+          <li>at the Sure Plus Hotel by Best Western</li>
+          <li>(formerly the Ramada Inn)</li>
+        </ul>
+        <p>No shows will be billed. Guest Speaker: Kate Galliett</p>
+        <p>
+          <a
+            href="https://web.carboncountychamber.net/atlas/events/februarychamber%20luncheon-1106/register"
+            target="blank">
+            --Register!</a
+          >
+        </p>
+      </div>
+      <div class="weather">
+        <img src="images/weather-placeholder.png" alt="weather placeholder" />
+      </div>
+      <div class="news-release">
+        <h2>News Release</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          suscipit saepe, eum labore consectetur deleniti vitae architecto minus
+          explicabo illum optio assumenda deserunt corporis iusto praesentium in
+          eos odit reiciendis accusamus! Praesentium possimus, reiciendis sequi
+          mollitia suscipit, dolor cumque minima unde odit eius optio repellat
+          enim ullam exercitationem, commodi quisquam.
+        </p>
+      </div>
+      <div class="spotlights">
+        <div class="spotlight1">
+          <a
+            href="https://www.castleviewhospital.net/"
+            target="blank"
+            class="company-site"
+            ><img
+              src="images/castleview-logo-spotlight-1.jpg"
+              alt="castle view logo"
+              class="spotlight-img"
+          /></a>
+          <div class="company-info">
+            <p class="company-phone">435.637.4800</p>
+            <a
+              href="https://www.castleviewhospital.net/"
+              target="blank"
+              class="company-site"
+              >300 North Hospital Drive Price, UT 84501</a
+            >
+          </div>
+        </div>
+        <div class="spotlight2">
+          <a href="https://www.peczuh.com/" target="blank"
+            ><img
+              src="images/pz_printing-spotlight-2.jpg"
+              alt="pz logo"
+              class="spotlight-img"
+          /></a>
+          <div class="company-info">
+            <p class="company-phone">800.368.6433</p>
+            <a
+              href="https://www.peczuh.com/"
+              target="blank"
+              class="company-site"
+              >info@peczuh.com</a
+            >
+          </div>
+        </div>
+        <div class="spotlight3">
+          <a href="https://www.usu.edu/" target="blank"
+            ><img
+              src="images/eagle-logo-spotlight-3.png"
+              alt="usu logo"
+              class="spotlight-img"
+          /></a>
+          <div class="company-info">
+            <p class="company-phone">(435) 797-1000</p>
+            <a href="https://www.usu.edu/" target="blank" class="company-site"
+              >451 East 400 North Price</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="join">
+        <div class="join-button"><a href="join.html">Join Us!</a></div>
+        <p>
+          Discover how to join the Carbon County Chamber of Commerce and how it
+          will benefit your business!
+        </p>
+      </div>
     </main>
-
     <footer>
-      <img
-        src="images/carbon county footer.png"
-        alt="carcon county footer logo" />
-      <div class="contact-info">info@ccounty-chamber.org</div>
-      <div class="contact-info">444-000-0000</div>
-
-      <iframe
-        class="google"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.144701310627!2d-110.797271!3d39.6014227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874eb95879dbc419%3A0x31409ab1dd2a0c6e!2sCarbon%20County%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1674687260818!5m2!1sen!2sus"></iframe>
-
-      <p>
-        &copy;<span id="copyright-year">Carbon County Commerce of Chamber</span>
-      </p>
-      <p>Anthuan Morera</p>
-      <p>WDD 230</p>
-      <div id="date-mod"></div>
+      <div class="footer1">
+        <img src="images/carbon county footer.png" alt="carbon footer logo" />
+        <div class="info-box">
+          <div class="contact-info">info@Ccounty-chamber.org</div>
+          <div class="contact-info">444-000-0000</div>
+          <div class="location">
+            <i class="fa fa-map-pin"></i>
+            <a href="https://goo.gl/maps/Buhhn1E97W23AGPS7" target="blank">
+              Location Map</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer2">
+        <p>
+          &copy;<span id="copyright-year"></span> Carbon County Chamber of
+          Commerce
+        </p>
+        <p>Anthuan Morera</p>
+        <p>WDD 230 Project</p>
+        <div id="date-mod"></div>
+      </div>
     </footer>
     <script src="js/chamber.js"></script>
   </body>
