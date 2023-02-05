@@ -74,6 +74,8 @@
     grid-column: 1/4;
     text-align: center;
   }
+
+
   
   nav ul li a{
    color: var(--nav-link-color);
@@ -209,8 +211,19 @@
     background-color: var(--accent1-color);
     padding: 10px;
     font-weight: bold;
+    color: white;
   
   }
+
+  .news-release h2 {
+    color: #ACE4AA;
+  }
+
+  /* .news-release p {
+
+    color: white;
+
+  } */
   .event ul{
     list-style: none;
     color: white;
