@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300&family=Source+Serif+Pro:wght@300&display=swap"
+      rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+
+    <link rel="icon" href="/wdd230/favicon.ico" type="image/x-icon" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chamber of Commerce | Lesson 8 | WDD230 | BYU Idaho" />
+
+    <title>Carbon County Chamber of Commerce</title>
+  </head>
+  <body>
+    <header>
+      <!--  from banner video: https: //www.youtube.com/watch?v=x-LVUk2IxDU  -->
+      <div class="banner">
+        <div class="banner-box">
+          <div class="banner-text">
+            Come join us for the Chamber Meet-n-Greet every Saturday at 14:00
+            <button class="banner-close" type="button">
+              <span class="material-symbols-outlined"> X </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-grid">
+        <div class="header-img-div">
+          <img
+            src="images/carbon county logo.webp"
+            alt="carbon county chamber" />
+        </div>
+
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img class="social-logo" src="images/facebook.png" alt="fb icon" />
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img
+              class="social-logo"
+              src="images/instagram.png"
+              alt="instagram icon" />
+          </a>
+        </div>
+
+        <div>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <nav>
+          <ul id="primaryNav">
+            <li><a href="index.html">Home </a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-date"></div>
+      </div>
+    </header>
+
+    <main class="join-box">
+      <div class="join-h1"><h1>Join the Carbon Chamber today</h1></div>
+
+      <div>
+        <h2>Enter your info to Join:</h2>
+        <form class="join-form" method="get" action="thankyou.html">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label class="top"
+              >First Name<span class="asterik">*</span
+              ><input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Last Name<span class="asterik">*</span
+              ><input type="text" name="lname" required
+            /></label>
+            <label class="top"
+              >Cell Phone<span class="asterik">*</span
+              ><input type="tel" name="phone" placeholder="1111111111" required
+            /></label>
+            <label class="top"
+              >Email<span class="asterik">*</span
+              ><input
+                type="email"
+                name="email"
+                placeholder="example@email.com"
+                required
+            /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Business Information</legend>
+            <label class="top"
+              >Business Name<span class="asterik">*</span
+              ><input type="text" name="company" required
+            /></label>
+
+            <label class="top"
+              >Please describe your business<textarea
+                name="businessDescription"
+                rows="4"
+                cols="30"></textarea>
+            </label>
+
+            <label class="top"
+              >Business Position Title:<input
+                type="text"
+                name="businessTitle"
+                pattern="[A-Za-z\s\-]{7,}"
+            /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Membership Information</legend>
+            <div>Choose your membership level:</div>
+            <label class="sbs"
+              ><input type="radio" name="membership" value="gold" />
+              Platinum</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="silver" />
+              Gold</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="bronze" />
+              Silver</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="nonprofit" />
+              Non-Profit/Bronze</label
+            >
+          </fieldset>
+
+          <input type="hidden" id="date" name="date" />
+          <input type="submit" value="Join Now" class="submitBtn" />
+        </form>
+      </div>
+
+      <div class="membership-div">
+        <h2>Membership Levels:</h2>
+
+        <h3>Platinum : $1250 per year</h3>
+        <ul>
+          <li>Ribbon Cutting ceremony.</li>
+          <li>
+            Access to premier advertising at events, including Heritage Days,
+            Helper Main Street Walk and the Saturday Vibes Night
+          </li>
+          <li>Discounts on insurances, office supplies, marketing and more</li>
+          <li>
+            Advertising in the Carbon County Chamber website monthly periodical
+          </li>
+          <li>Plus, everything in the Gold Level</li>
+        </ul>
+
+        <h3>Gold : $950 per year</h3>
+        <ul>
+          <li>
+            Quarterly Trainings to improve marketing and grow your business
+          </li>
+          <li>Free spot at the Farmer's Market</li>
+          <li>Advertising in the Carbon County Chamber website Home page</li>
+          <li>Plus, everything in the Silver level</li>
+        </ul>
+
+        <h3>Silver : $600 per year</h3>
+        <ul>
+          <li>Weekly email with business and advertising opportunities</li>
+          <li>Weekly Meet-n-Greets</li>
+          <li>Membership certificate</li>
+          <li>Advertisingin the Carbon County Chamber social media sites</li>
+          <li>Listing in the directory</li>
+        </ul>
+
+        <h3>Non-Profit/Bronze : No cost</h3>
+        <ul>
+          <li>
+            Quarterly Trainings to improve marketing and grow your business
+          </li>
+          <li>Free spot at the Farmer's Market</li>
+          <li>Free spot at the Carbon Mine begginer auctions</li>
+          <li>Discounts on insurances, office supplies, marketing and more</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer1">
+        <img src="images/carbon county footer.png" alt="syracuse footer logo" />
+        <div class="info-box">
+          <div class="contact-info">info@Ccounty-chamber.org</div>
+          <div class="contact-info">444-000-0000</div>
+
+          <div class="location">
+            <i class="fa fa-map-pin"></i>
+            <a href="https://goo.gl/maps/Buhhn1E97W23AGPS7" target="blank">
+              Location Map</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="footer2">
+        <p>
+          &copy;<span id="copyright-year"></span> Carbon County Chamber of
+          Commerce
+        </p>
+        <p>Anthuan Morera</p>
+        <p>WDD 230 Project</p>
+        <div id="date-mod"></div>
+      </div>
+    </footer>
+
+    <script src="js/chamber.js" defer></script>
+    <script src="js/joindate.js" defer></script>
+  </body>
+</html>
