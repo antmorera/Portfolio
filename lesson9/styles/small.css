@@ -1,0 +1,100 @@
+:root {
+
+    /*FONTS:*/
+    --heading-font: 'Oswaldo', Arial, sans-serif;
+    --paragraph-font: 'Source Serif Pro', 'Roboto', serif;
+  
+    /*COLORS:*/
+    --primary-color: #ACE4AA;
+    --secondary-color: white;
+    --accent1-color: #004E98;
+    --accent2-color: #FEEBD7;
+  
+    --headline-color-on-white: #2B3964;
+    --headline-color-on-color: #2B3964;
+    --headline-background-color: #E0E0E0;
+  
+    --paragraph-color-on-white: #2B3964;
+    --paragraph-color-on-color: #2B3964;
+    --paragraph-background-color: #91D17E;
+  
+    --nav-link-color: #E0E0E0;
+    --nav-background-color: #2B3964;
+    --nav-hover-link-color: #2B3964;
+    --nav-hover-background-color: #91D17E;
+ }
+
+header, footer {
+    border: 2px solid black;
+    text-align: center;
+    background-color: #FEEBD7;
+    box-shadow: 0 5px 2px -2px rgb(212, 211, 211);
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    max-width: 2000px;
+    color: #91D17E;
+    font-family: 'Rubik', sans-serif;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+main div {
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #ACE4AA;
+    color: floralwhite;
+    max-width: 1800px;
+}
+
+main div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+main div.cards section{
+    border: 2px solid black;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    white-space: pre-line;
+    background-color: #004E98;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0 8px 2px -2px grey;
+}
+
+main div.cards section img {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+    box-shadow: 0 8px 2px -2px grey;
+}
+
+main h2 {
+    font-size: 2rem;
+
+}
+
+main p {
+    font-size: 1.25rem;
+}
+
+footer {
+    font-size: 2rem;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.footer span {
+
+    text-decoration: underline;
+
+}
+  /* JS CSS */
+.last-update {
+    color: gold;
+}
