@@ -1,0 +1,116 @@
+{
+    "companies": [
+      {
+  
+        "company" :"The Packer Mansion",
+        "phone":"385.000.23323",
+        "address": "3423 W 2333 S",
+        "cityState":"Carbon County, UT 84501",
+        "url":"https://www.packermansion.com",
+        "imageSrc": "./images/packer_mansion.png",
+        "imageAlt":"Packer Mansion",
+        "membershiplevel":"silver"
+  
+      },
+      {
+        "company" : "Utah State Sports",
+        "phone" : "000.0000.0000",
+        "address" : "400 N 1200S W",
+        "cityState" : "Carbon County, UT 84501",
+        "url" : "https://www.usu.south.com",
+        "imageSrc" : "./images/eagle-logo-spotlight-3.png",
+        "imageAlt" : "Utah Eagle Sports",
+        "membershiplevel" : "gold"
+  
+      },
+      {
+        "company" : "Carbon Custom Computers",
+        "phone" : "2323.233.2323",
+        "address" : "324 W 400 S",
+        "cityState" : "Carbon County, UT 84501",
+        "url" : "https://www.carboncountycomputers.com",
+        "imageSrc" : "./images/carbon custom computer.png",
+        "imageAlt" : "Carbon Custom Computers logo",
+        "membershiplevel" : "bronze"
+  
+      },
+      {
+        "company" : "USU Prehistoric Museum",
+        "phone" : "000.111.2222",
+        "address" : "1891 W 1700 S",
+        "cityState" : "Carbon County, UT 84501",
+        "url" : "https://www.usumuseum.com",
+        "imageSrc" : "./images/utah-museum-logo.jpg",
+        "imageAlt" : "Utah State University Prehistoric Museum logo",
+        "membershiplevel" : "non-profit"
+  
+      },
+      {
+        "company" : "Helper Main Street",
+        "phone" : "271.253.3202",
+        "address" : "1662 S 2000 W",
+        "cityState" : "Carbon County, UT 84501",
+        "url" : "https://www.helper-main.com",
+        "imageSrc" : "./images/Helper_main_street.png",
+        "imageAlt" : "Helper Main logo",
+        "membershiplevel" : "bronze"
+  
+      },
+          {
+        "company" : "Castle View Hospital",
+        "phone" : "3232.256.222",
+        "address" : "23 S 120 W",
+        "cityState" : "Carbon County, UT 84501",
+        "url" : "https://Castleviewhospital.com",
+        "imageSrc" : "./images/castleview-logo-spotlight-1.jpg",
+        "imageAlt" : "Castle View Hospital",
+        "membershiplevel" : "silver"
+  
+      },
+              {
+        "company" : "Sakura Japanese Steak House",
+        "phone" : "000.0000.0000",
+        "address" : "200 Main Street",
+        "cityState" : "Carbon County, UT 84501",
+        "url" : "https://sakura.com",
+        "imageSrc" : "./images/Sakura-Logo.png",
+        "imageAlt" : "Sakura logo",
+        "membershiplevel" : "gold'"
+  
+      },
+              {
+        "company" : "PZ Printing",
+        "phone" : "333.4444.333",
+        "address" : "40 N 200 E",
+        "cityState" : "Carbon County, UT 84501",
+        "url" : "https://www.pzprinting.com",
+        "imageSrc" : "./images/pz_printing-spotlight-2.jpg",
+        "imageAlt" : "Pz Printing logo",
+        "membershiplevel" : "gold"
+  
+      },
+              {
+        "company" : "Family Dental",
+        "phone" : "801.773.4840",
+        "address" : "32 W 40 S",
+        "cityState" : "Carbon County, UT 84501",
+        "url" : "https://family-dental.com",
+        "imageSrc" : "./images/family_dental_center.jfif",
+        "imageAlt" : "Family dental Logo",
+        "membershiplevel" : "gold"
+  
+      },
+              {
+        "company" : "Grog's Pub & Grill",
+        "phone" : "025.453.288",
+        "address" : "234 W 1700 S",
+        "cityState" : "Carbon County, UT 84501",
+        "url" : "https://www.grogs.com",
+        "imageSrc" : "./images/grogs_logo.jfif",
+        "imageAlt" : "Grog's logo",
+        "membershiplevel" : "bronze"
+  
+      }
+  
+    ]
+  }

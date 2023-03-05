@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300&family=Source+Serif+Pro:wght@300&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chamber of Commerce | Lesson 9 | WDD230 | BYU Idaho " />
+    <title>Carbon Chamber Directory</title>
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <div class="banner-box">
+          <div class="banner-text">
+            Come join us for the Chamber Meet-n-Greet every Saturday at 14:00
+            <button class="banner-close" type="button">
+              <span class="material-symbols-outlined"> X </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-grid">
+        <div class="header-img-div">
+          <img
+            src="images/carbon county logo.webp"
+            alt="carbon county chamber of commerce logo" />
+        </div>
+
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img class="social-logo" src="images/facebook.png" alt="fb icon" />
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img
+              class="social-logo"
+              src="images/instagram.png"
+              alt="instagram icon" />
+          </a>
+        </div>
+        <div>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <nav>
+          <ul id="primaryNav">
+            <li><a href="index.html">Home </a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
+            <li><a href="../lesson8-2/join.html">Join</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-date"></div>
+      </div>
+    </header>
+
+    <main class="basic-grid directory-grid">
+      <h1>Chamber Directory</h1>
+      <div class="buttons">
+        <div class="getList">List</div>
+        <div class="getGrid">Grid</div>
+      </div>
+
+      <div class="company-info companyGrid"></div>
+    </main>
+
+    <footer>
+      <div class="footer1">
+        <img
+          src="images/carbon county footer.png"
+          alt="carbon county footer logo" />
+        <div class="info-box">
+          <div class="contact-info">info@Ccounty-chamber.org</div>
+          <div class="contact-info">444-000-0000</div>
+
+          <div class="location">
+            <a href="https://goo.gl/maps/Buhhn1E97W23AGPS7" target="blank"
+              ><span>📍</span> Location Map</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="footer2">
+        <p>
+          &copy;<span id="copyright-year"></span> Carbon County Chamber of
+          Commerce
+        </p>
+        <p>Anthuan Morera</p>
+        <p>WDD 230 Project</p>
+        <div id="date-mod"></div>
+      </div>
+    </footer>
+
+    <script src="js/chamber.js" defer></script>
+    <script src="js/directory.js" defer></script>
+  </body>
+</html>
