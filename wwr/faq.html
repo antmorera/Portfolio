@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whitewater Rafting Vacations | Cool Rapids | Contact Us</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <a id="logo_link" href="index.html">
+          <img class="logo" src="images/circlelogo.jpeg" alt="Dry Oar Logo" />
+        </a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="faq.html">FAQ</a>
+          <a href="site-plan-rafting.html">Site Plan</a>
+          <a href="contactus.html">Contact Us</a>
+        </nav>
+      </header>
+      <div id="faq-banner">
+        <img id="faq-img-banner" src="images/faq_banner.jpg" alt="People looking for answers" />
+      </div>
+      <main class="questions-&=answers">
+        <section class="list-of-questions">
+          <div class="dropdown">
+            <button  onclick="myFunction()" class="dropbtn">1. Is whitewater rafting safe? I don't even know how to swim! Can I still come?</button>
+            
+            <button  onclick="myFunction()" class="dropbtn">2. How far in advance should I book my trip?</button>
+            
+            <button  onclick="myFunction()" class="dropbtn">3. What is included in the trip?</button>
+            
+            <button  onclick="myFunction()" class="dropbtn">4. What do I need to bring?</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">1. As with all adventure sports, there is an inherent and assumed element of risk. To help ensure your safety, our guides are all certified in Wilderness First aid and all start with at least 3 years of rafting experience. The most common injuries are sunburns and injuries that occur on land.
+                Everyone on commercial rafting trips wears coast guard approved life vest or personal flotation device (PFD). Many non swimmers go on rafting trips and have a great time. Your guide will give you an in depth and engaging safety talk before your trip begins explaining what you should prepare for and do in the event that you fall out of the raft.</a>
+              <a href="#">2. If you have specific dates you need, we recommend booking a year in advance. If you can be more flexible 6 months in advance is usually sufficient.</a>
+              <a href="#">3. We will provide all necessary camping equipment. Including delicious food that you can cook as you camp or have our ready to go meals! </a>
+              <a href="#">4. You can always bring your own equipment but here in Cool Rapids we can also provide all the things you need to have a great experience!</a>
+            </div>
+          </div>
+          <script>
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+          // Close the dropdown menu if the user clicks outside of it
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+          </script>
+        </section>
+
+      
+        <footer>
+          <p>Cool Rapids &copy; 2022 - Anthuan Morera</p>
+          <p><a href="site-plan-rafting.html">Site Plan</a></p>
+          <p><a href="contactus.html">Contact Us</a></p>
+          <div class="social">
+            <a href="https://facebook.com" target="_blank">
+              <img src="images/facebook.png " alt="fb icon" />
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <img src="images/twitter.png" alt="twitter icon" />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img src="images/instagram.png" alt="instagram icon" />
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

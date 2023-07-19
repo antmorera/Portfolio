@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Plus+Jakarta+Sans:wght@200&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.home-title {
+
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 2em;
+}
+
+
+
+
+body {
+
+    background-color: #1f513b;
+    color: #f0f1df;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: #1f513b;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+
+    width: 80px;
+}
+
+#logo_link {
+
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+
+    width: 80px;
+    padding-top: 10px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9b509;
+
+}
+
+nav a{
+
+    text-align: center;
+    
+    text-decoration: none;
+    padding: 35px;
+    
+}
+
+
+
+a { 
+    color: #f0f1df;
+    text-align: center;
+}
+
+main {
+
+    text-align: center;
+}
+
+main section img {
+
+    box-sizing: border-box;
+}
+
+.home-grid {
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+
+
+.rivers-card {
+
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+
+.camping-card {
+
+    margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+.card-img {
+
+    width: 100%;
+    border: 10px solid #6783a6;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover{
+
+    opacity: .6;
+    transform: scale(1.1);
+
+}
+
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+a:hover {
+
+    text-decoration: underline;
+    background-color: #6783a6;
+}
+
+
+.book {
+    color: #f0f1df;
+    background-color: #f9b509;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.book:hover {
+    color: #f0f1df;
+    background-color: #6783a6;
+    margin-top: 50px;
+}
+
+
+.join {
+
+    color: #f0f1df;
+    background-color: #f9b509;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.join:hover {
+
+    background-color: #6783a6;
+}
+
+#hero {
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-img {
+
+    width: 100%;
+
+}
+
+#hero-msg {
+
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+
+}
+
+#hero-msg h4 {
+
+    color:white;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+h2 {
+
+    margin: 0;
+}
+
+h4 {
+
+    text-align: center;
+}
+
+.button-box {
+
+    text-align: center;
+}
+
+
+
+section {
+
+    text-align: center;
+}
+
+#background {
+
+    background-color: #f86c08;
+    height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.msg {
+
+    background-color: #1f513b;
+    color: #f0f1df;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+}
+
+.msg p {
+
+    padding-bottom: 15px;
+}
+
+
+footer {
+
+    background-color: #f9b509;
+    color: #f0f1df;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer a {
+
+    color: #f0f1df;
+    text-decoration: none;
+}
+
+footer a:hover {
+
+    color: #f0f1df;
+}
+
+footer p {
+
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+footer .social img {
+
+    padding-top: 15px;
+}
+
+/* ########## CONCTACT US CSS  STARTS HERE ############### */
+#faq-img-banner {
+
+    width: 100%;
+    height: 350px;
+
+}
+
+
+            /* ### BUTTON CSS STARTS HERE ### */
+
+
+.dropbtn {
+  background-color: #6783a6;
+  color: white;
+  padding: 50px 50px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Architects Daughter";
+  margin: 5px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f0f1df;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Plus Jakarta Sans";
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.show {display:block;}
+
+
+/* ########## CONTACT US CSS ENDS HERE ############# */
+
+
+/* #############  media query ######### */
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}

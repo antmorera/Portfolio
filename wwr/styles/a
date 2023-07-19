@@ -1,0 +1,8 @@
+Given the following JS code snippet, rewrite the entire statement using a
+template literal. You can assume that all the variables used in the concatenated
+expression have been declared and are ready to use. You must include a closing
+semicolon. const fulldate = dayName + ", " + d.getDate() + ", "+ monthName + " "
++ year; const fulldate = `${dayName}, ${d.getDate()}, ${monthName} ${year}`;
+const daysUntil = `"There are " + ${daycount} + " days until " + ${targetEvent}
++ "!";` Which JavaScript variable declaration statements has a function scope
+versus a block scope?
